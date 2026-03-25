@@ -32,7 +32,9 @@ Open terminal and login to MariaDB:
 
 mysql -u root -p
 ```
-## if you are using RDS database 
+---
+
+# if you are using RDS database 
 install client to connect database to server 
 ```
 sudo apt update
