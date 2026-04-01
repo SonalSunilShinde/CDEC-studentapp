@@ -149,7 +149,17 @@ CHANGES DONE BY DEV
    17  cp -rf dist/* /var/www/html/
    18  history
 ```
-
+### MySQL History
+```
+CREATE DATABASE student_db;
+use student_db;
+GRANT ALL PRIVILEGES ON springbackend.* TO 'root'@'localhost' IDENTIFIED BY 'Redhat123';
+exit ;
+show databases;
+use student_db;
+show tables ;
+select * from user ;
+```
 
 
 
