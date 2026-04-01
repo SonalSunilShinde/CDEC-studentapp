@@ -155,6 +155,11 @@ CREATE DATABASE student_db;
 use student_db;
 GRANT ALL PRIVILEGES ON springbackend.* TO 'root'@'localhost' IDENTIFIED BY 'Redhat123';
 exit ;
+```
+
+
+### To check were data is stored or not check steps in Backend server 
+```
 show databases;
 use student_db;
 show tables ;
